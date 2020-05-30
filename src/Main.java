@@ -1,11 +1,18 @@
+import java.util.*;
+
 public class Main {
 
-    public static void main(String[] args)
-    {
-        String alpha = "";
-        for(char current = 'a'; current <= 'z'; current++)
-        alpha += current;
-        System.out.println(alpha);//abcdefghijklmnopqrstuvwxyz
+        public static void main(String[] args)
+        {int[] numbers = new int[10];
+             for (int i = 0; i < numbers.length; i++)
+              numbers[i] = i + 5;
 
-    }
-}
+            System.out.println (numbers[5]);
+
+            int[] numbers1 = { 6, 9, 1 };
+            Arrays.sort(numbers1);
+            for (int i = 0; i < numbers1.length; i++)
+                  System.out.println (numbers1[i] +  " ");
+
+
+        }}
