@@ -1,4 +1,9 @@
 # Builder разница между String и StringBuilder
+10: String alpha = "";
+11: for(char current = 'a'; current <= 'z'; current++)
+12:  alpha += current;
+13: System.out.println(alpha);
+
 вывод  abcdefghijklmnopqrstuvwxyz
 Пустой Stringв строке 10 создается, а затем строка 12 добавляет "a". 
 Однако, поскольку Stringобъект является неизменным, новый Stringобъект назначается alphaи «»объект получает право на сборку мусора.
